@@ -1,63 +1,101 @@
-# =============================
-# IntelliJ IDEA 用
-# =============================
+########################################################
+### macOS ###
+########################################################
 
-# IDE設定
-.idea/
-*.iml
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# ビルド成果物
-out/
-build/
+########################################################
+### Eclipse ###
+########################################################
+
+*.pydevproject
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+.buildpath
+
+# Eclipse Core
+.externalToolBuilders/
+.remoteprojects
+.cproject
+
+# CDT-specific
+*.launch
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific
+.buildpath
+
+# sbt directories
 target/
 
-# =============================
-# Eclipse 用
-# =============================
+########################################################
+### JetBrains / IntelliJ IDEA ###
+########################################################
 
-# IDE設定
-*.classpath
-*.project
-*.settings/
+# User-specific stuff
+.idea/
+*.iws
+*.iml
+*.ipr
 
-# Eclipse特有のファイル
-.metadata/
-.recommenders/
+# IntelliJ out directory
+out/
 
-# ビルド成果物
-/bin/
-/tmp/
-/tmp_build/
+# Android studio
+.gradle/
+local.properties
+*.hprof
 
-# =============================
-# 共通：OSやログファイルなど
-# =============================
-
-# macOS
+# OS X
+.idea_modules/
 .DS_Store
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# JetBrains Rider
+.idea/
 
-# ログ
+########################################################
+### Java ###
+########################################################
+
+*.class
+*.jar
+*.war
+*.ear
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
 *.log
 
-# その他
-*.swp
-*.swo
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Temporary files
+*.tmp
 *.bak
-*.tmp# Eclipse settings
-*.classpath
-*.project
-*.settings/
+*.swp
+*~.nib
 
-# ビルド出力
-/bin/
-/target/
-/build/
+# Other
+tmp/
 
-# OSごとの一時ファイル
-.DS_Store
-Thumbs.db
