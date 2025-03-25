@@ -1,0 +1,63 @@
+# =============================
+# IntelliJ IDEA 用
+# =============================
+
+# IDE設定
+.idea/
+*.iml
+
+# ビルド成果物
+out/
+build/
+target/
+
+# =============================
+# Eclipse 用
+# =============================
+
+# IDE設定
+*.classpath
+*.project
+*.settings/
+
+# Eclipse特有のファイル
+.metadata/
+.recommenders/
+
+# ビルド成果物
+/bin/
+/tmp/
+/tmp_build/
+
+# =============================
+# 共通：OSやログファイルなど
+# =============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ログ
+*.log
+
+# その他
+*.swp
+*.swo
+*.bak
+*.tmp# Eclipse settings
+*.classpath
+*.project
+*.settings/
+
+# ビルド出力
+/bin/
+/target/
+/build/
+
+# OSごとの一時ファイル
+.DS_Store
+Thumbs.db
